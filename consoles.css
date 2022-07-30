@@ -1,0 +1,55 @@
+.consoles {
+  margin: auto;
+}
+
+.titulo-console {
+  background-image: linear-gradient(#cf93d3, #9b4dbe, #452053);
+  font-size: 30px;
+  text-align: center;
+  margin: 2rem 0;
+  padding: 25px;
+  font-weight: 700;
+}
+
+.consoles-antigos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 32%;
+  height: 400px;
+  margin: 0.5rem;
+  width: 32%;
+  flex-grow: 1;
+}
+
+.xbox {
+  background: url(/xbox.jpg) center/cover no-repeat;
+  display: flex;
+}
+
+.ps1 {
+  background: url(/PS1.jpg) center/cover no-repeat;
+  display: flex;
+}
+
+.ps2 {
+  background: url(/PS2.jpg) center/cover no-repeat;
+  display: flex;
+}
+
+.atari {
+  background: url(/Atari.jpg) center/cover no-repeat;
+  display: flex;
+}
+
+.master {
+  background: url(/master.jpg) center/cover no-repeat;
+  display: flex;
+}
+
+.gameboy {
+  background: url(/saturn.jpg) center/cover no-repeat;
+  display: flex;
+}

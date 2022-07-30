@@ -1,0 +1,40 @@
+.jogos-classicos {
+  margin: auto;
+}
+
+.cards-classicos {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.cards-classicos-jogos {
+  width: 21%;
+  flex-grow: 1;
+  margin: 0.5rem;
+  text-align: center;
+  background-color: white;
+}
+
+.cards-classicos-jogos:nth-child(4n + 1) {
+  margin-left: 0%;
+}
+
+.cards-classicos-jogos:nth-child(4n) {
+  margin-right: 0%;
+}
+
+.img {
+  width: 100%;
+  height: 250px;
+}
+
+.info {
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.titulos-cards-classicos {
+  font-size: 30px;
+}

@@ -1,0 +1,70 @@
+.rodape {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.titulo-rodape {
+  background-color: white;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.redes {
+  text-align: center;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.redes-1 {
+  margin: 1rem 2rem;
+}
+
+.lista-redes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icon-redes {
+  width: 35px;
+}
+
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  font-weight: 500;
+  margin-left: 0.5rem;
+  padding: 15px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.label:hover {
+  cursor: pointer;
+  color: #6e8edf;
+}
+
+.input {
+  border-radius: 15px;
+  width: 20%;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+}
+
+.input::placeholder {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  background: url(/img/lupa.png) no-repeat;
+  background-position: 0.5rem;
+}

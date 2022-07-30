@@ -1,0 +1,100 @@
+.principal {
+  margin: 1rem 0;
+}
+
+.classicos {
+  margin: 1rem;
+  margin: auto;
+  height: 90vh;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 2fr 3fr 3fr 3fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "menu-lateral donkey donkey sonic"
+    "menu-lateral donkey donkey megaman"
+    "menu-lateral donkey donkey metroid";
+}
+
+.menu-lateral {
+  grid-area: menu-lateral;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.sublista {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  background-image: linear-gradient(#cf93d3, #9b4dbe, #452053);
+  height: 100%;
+}
+
+.titulo-menu {
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px 10px;
+  flex-grow: 1;
+}
+
+.titulo-menu__item {
+  margin: 1rem 0;
+  font-size: 20px;
+  font-weight: 600;
+  flex-grow: 1;
+}
+
+.titulo-menu__link {
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.titulo-principal {
+  background-color: rgba(0, 0, 0, 0.5);
+  align-self: flex-end;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 650;
+  color: white;
+  padding: 10px 0;
+}
+
+.titulo-card {
+  background-color: rgba(0, 0, 0, 0.5);
+  align-self: flex-end;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 650;
+  color: white;
+  padding: 10px 0;
+}
+
+.donkey {
+  grid-area: donkey;
+  background: url(/img/dk.jpg) center/cover no-repeat;
+  display: flex;
+}
+
+.sonic {
+  grid-area: sonic;
+  background: url(/img/sonic.jpg) center/cover no-repeat;
+  display: flex;
+}
+
+.megaman {
+  grid-area: megaman;
+  background: url(/img/mega-man-x.jpg) center/cover no-repeat;
+  display: flex;
+}
+
+.metroid {
+  grid-area: metroid;
+  background: url(/img/metroid.jpg) center/cover no-repeat;
+  display: flex;
+}

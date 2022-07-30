@@ -1,0 +1,45 @@
+.sub-menu-lateral {
+  background-color: lightslategrey;
+  height: 326px;
+  width: 200px;
+  position: absolute;
+  left: -300px;
+  transition: all 0.7s;
+}
+
+.botao-sub-menu {
+  position: absolute;
+  padding: 12px;
+  z-index: 1;
+}
+
+.botao-sub-menu:hover {
+  cursor: pointer;
+}
+
+.sublista-lateral {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+
+.input-menu {
+  display: none;
+}
+
+.link-lateral {
+  display: block;
+  padding: 15px;
+  color: black;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.link-lateral:hover {
+  background-color: darkgray;
+  color: white;
+}
+
+.input-menu:checked ~ .sub-menu-lateral {
+  transform: translateX(304px);
+}

@@ -1,0 +1,112 @@
+@media (max-width: 1370px) {
+  .classicos {
+    height: auto;
+  }
+
+  .sonic,
+  .megaman,
+  .metroid {
+    display: none;
+  }
+
+  .donkey {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    height: 500px;
+  }
+
+  .menu-lateral {
+    grid-column: 1/5;
+    grid-row: 2/4;
+  }
+
+  .sublista {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1180px) {
+  .navbar {
+    display: block;
+  }
+
+  .lista {
+    justify-content: center;
+  }
+
+  .item1 {
+    margin: 0 0.5rem;
+  }
+
+  .item {
+    margin: 0 1rem;
+  }
+
+  .cards-classicos-jogos {
+    width: 48%;
+  }
+
+  .cards-classicos-jogos:nth-child(2n) {
+    margin-right: 0%;
+  }
+
+  .cards-classicos-jogos:nth-child(3n) {
+    margin-left: 0%;
+  }
+
+  .input {
+    width: 40%;
+  }
+
+  .menu-lateral {
+    flex-direction: row;
+    height: auto;
+  }
+
+  .sublista {
+    flex-grow: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .cabecalho > .rodo {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .lista {
+    margin: 0%;
+    align-items: flex-start;
+    font-size: 30px;
+  }
+
+  .item {
+    margin: 0 0 0 1rem;
+  }
+
+  .item1 {
+    margin: 0 0 0 1rem;
+  }
+
+  .menu-lateral {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .cards-classicos-jogos {
+    margin: 1rem 0%;
+    width: 100%;
+  }
+
+  .input {
+    width: 60%;
+  }
+
+  .navbar {
+    display: none;
+  }
+}

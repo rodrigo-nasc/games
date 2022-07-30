@@ -1,0 +1,41 @@
+.cabecalho {
+  background: white;
+  height: auto;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.lista {
+  display: flex;
+  align-items: center;
+  margin: 2rem 2rem;
+}
+
+.lista-botao {
+  color: black;
+  font-weight: 600;
+}
+
+.item {
+  margin-right: 1.5rem;
+  padding: 15px 0px;
+}
+
+.item1 {
+  margin-left: 1.5rem;
+  padding: 15px 0;
+}
+
+.lista-botao:hover {
+  color: #6e8edf;
+}
+
+.icon {
+  width: 40px;
+  vertical-align: -10px;
+}
